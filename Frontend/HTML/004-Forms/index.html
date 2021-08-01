@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms </title>
+</head>
+<body>
+    <!-- DONT USE ACTION AND METHOD HERE -->
+    <form> 
+        <p> Please put your name!</p>
+        <span> Please put your name: </span>
+        <input type="text" name="your name"/>
+        <br>
+        <br>
+        <span> Please put your name: </span>
+        <input type="text" name="your name" placeholder="Enter Name"/>
+        <br>
+        <br>
+        <span> Please put your name: </span>
+        <input type="text" name="your name" placeholder="Enter Name" value="default_name"/>
+
+        <button type="submit"> Submit </button>
+        <button type="reset"> Reset </button>
+        <button type="blank"> Blank </button>
+
+    </form>
+    <br>
+    <br>
+
+    <form> 
+        <input type="radio" name="RadioDrink" value="Tea"/>Tea
+        <input type="radio" name="RadioDrink" value="Coffee"/>Coffee
+        <input type="radio" name="RadioDrink" value="Soup"/>Soup
+        <br/>
+        <input type="checkbox" name="CheckMilk" value="Yes"/>Milk
+        <input type="checkbox" name="CheckSugar" value="Yes"/>Sugar
+        <br/>
+        <input type="submit" name="OKButton" value="Make Order"/>
+
+    </form>
+
+    <form> 
+        <select name="days" size="5">
+            <option value="Mon"> Monday </option>
+            <option value="Tue"> Tuesday </option>
+            <option value="Wed"> Wednesday </option>
+            <option value="Thu"> Thursday </option>
+            <option value="Fri"> Friday </option>
+            <option value="Sat"> Saturday </option>
+            <option value="Sun"> Sunday </option>
+        </select>
+        <input type="submit" name="OKButton" value="Make Order"/>
+    </form>
+
+    Exercise - Create a Form that will collect an online cafe delivery order, get the following info
+    - Name of the customer
+    - Email and phone number
+    - Favourite colour (using colour picker)
+    - Select the drink they want
+    - How many of drink they want
+    - Radio button for small, med or large
+    - What date they want the order
+    - Rating of customer service using range or radio
+    - Submit button
+    
+</body>
+</html>
