@@ -18,7 +18,7 @@ Variables defined inside of a METHOD are *generally* only used in the method
 When the method ends all vars declared inside are no longer referenced and not accessible
 
 
-    publis static void firstMethod() {
+    public static void firstMethod() {
         int numberVar = 123
         syso(numberVar)
     }

@@ -17,9 +17,15 @@ public static void main(String[] args){
 
 Main takes priority, top down FROM main to the end of the app. Jumping between methods if need be
 
+Exercise - Create 3 methods that each return different strings, make your main method system print the returns of those methods in a different order than chronological
+
 ## Java Call Stack
 
 Call stack used to keep track of method calls, if a method is called BEFORE the current method finishes it is pushed to the top of the stack
 Last-in First-Out
 
 ## Scope
+
+Exercise
+
+Do the 'Results' Exercise in the exercise book

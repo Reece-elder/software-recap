@@ -104,6 +104,8 @@ FizzBuzz Create method(s) which do the following:
 - Returns FizzBuzz for numbers that are both
 - Returns the number for numbers that are neither
 
+Taxes exercise from OOP book
+
 
 
 
