@@ -1,0 +1,32 @@
+/* Element Selectors */
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    font-style: italic;
+}
+
+/* Class selector */
+
+.classDemo {
+    color: darkgreen;
+    font-style: normal;
+}
+
+/* ID selector  */
+/* Look at specificity */
+
+#idDemo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4, h5, h6 {
+    text-shadow: 3px 5px darkblue;
+    background-color: aqua;
+}
+
+h4.classDemo {
+    text-align: center;
+}

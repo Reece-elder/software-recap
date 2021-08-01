@@ -1,0 +1,21 @@
+.boxModel {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 10px;
+}
+
+.boxModel2 {
+    width: 300px;
+    height: 300px;
+    padding: 10px 20px;
+    padding: 10px 7px 12px 20px;
+    border: 5px solid red;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
